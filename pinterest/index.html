@@ -22,24 +22,17 @@
                 </svg>
             </div>
             <div class="links flex gap-5">
-                <a class="whitespace-nowrap font-semibold" href="#">Home</a><a class="whitespace-nowrap font-semibold"
+                <a id="home" class="whitespace-nowrap font-semibold" href="#">Home</a>
+                <a class="whitespace-nowrap font-semibold"
                     href="#">Explore</a><a class="whitespace-nowrap font-semibold" href="#">Create <i
                         class="ri-arrow-down-s-line"></i></a>
             </div>
             <div class="inputcontainer flex w-full rounded-full bg-zinc-200">
                 <div class="input w-full relative group">
-                    <div
-                        class="hidden searchdata w-[98%] min-h-20 bg-white absolute top-full left-1/2 -translate-x-1/2 rounded-md py-3">
-                        <div class="res flex px-8 py-3">
-                            <i class="ri-search-line font-semibold mr-5"></i>
-                            <h3 class="font-semibold">3d design</h3>
-                        </div>
-                        <div class="res flex px-8 py-3">
-                            <i class="ri-search-line font-semibold mr-5"></i>
-                            <h3 class="font-semibold">3d design</h3>
-                        </div>
+                    <div class="hidden searchdata w-[98%] min-h-20 bg-white absolute top-full left-1/2 -translate-x-1/2 rounded-md py-3">
+                        
                     </div>
-                    <input type="text" class="bg-transparent outline-none px-5 font-semibold w-full py-3 rounded-full"
+                    <input id="searchinput" type="text" class="bg-transparent outline-none px-5 font-semibold w-full py-3 rounded-full"
                         placeholder="Search Pizza, 3d Designs or what not...">
                     <i
                         class="absolute top-1/2 right-3 hidden group-focus:block text-zinc-500 text-xl -translate-y-1/2 ri-close-line"></i>
@@ -64,20 +57,13 @@
             <div class="overlay hidden fixed w-full h-screen bg-black/80"></div>
             <div class="content">
                 <div class="container">
-                    <div class="box">
-                        <img class="cursor-pointer" src="https://oriontravelblog.com/wp-content/uploads/2019/08/IMG_6310.jpg" alt="image">
-                        <div class="caption">Lorem ipsum </div>
-                    </div>
-
-                    <div class="box">
-                        <img class="cursor-pointer" src="http://orionstardesign.com/wp-content/uploads/2021/08/newStopCropped1.jpg"
-                            alt="image">
-                        <div class="caption">Lorem ipsum </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
